@@ -1,0 +1,72 @@
+Queue
+-----
+1. Queue is a Linear DS.
+2. Queue follows FIFO principle [First-In-First-out].
+3. Operations
+        |- Enqueue : Insert an element into the Queue.
+        |- Dequeue : Delete an element from the Queue.
+4. All operations perform from two end points.
+    |- FRONT -> Delete an element from the FRONT end.
+    |- REAR  -> Insert an element from the REAR end.
+5. Conditions
+    a. FRONT = REAR == -1, Queue is Empty
+    b. FRONT == REAR, Single Element
+    c. REAR == SIZE-1, Queue is Full
+6. Example
+    Program1.java
+
+Circular Queue
+--------------
+1. Circular Queue is a Linear DS.
+2. Circular Queue follows FIFO principle [First-In-First-out].
+3. Operations
+        |- Enqueue : Insert an element into the Queue.
+        |- Dequeue : Delete an element from the Queue.
+4. All operations perform from two end points.
+    |- FRONT -> Delete an element from the FRONT end.
+    |- REAR  -> Insert an element from the REAR end.
+5. Conditions
+    a. FRONT = REAR == -1, CQ is empty
+    b. FRONT == REAR, Single element in the CQ
+    c. FRONT==0 && REAR == Size-1, CQ is full
+    d. FRONT == REAR+1, CQ is Full
+    e. REAR = (REAR+1) % Size
+    f. FRONT = (FRONT+1)% Size
+6. Example
+    Program2
+
+Deque [aka Double Ended Queue]
+-----
+1. Deque works on both ends
+                    |- we can perform enqueue and dequeue from FRONT and REAR both.
+2. We are using ArrayDeque class for these operations
+3. ArrayDeque class is a generic class.
+4. Methods:
+    add()
+    addFirst()
+    addLast()
+    offer()
+    offerFirst()
+    offerLast()
+    remove()
+    removeFirst()
+    removeLast()
+    getFirst()
+    getLast()
+    poll()
+    pollFirst()
+    pollLast()
+
+
+
+
+
+
+
+
+
+
+
+
+
+

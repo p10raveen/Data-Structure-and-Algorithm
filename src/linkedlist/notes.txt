@@ -1,0 +1,47 @@
+LinkedList (single LL)
+----------
+1. LL is similar to an Array.
+2. LL elements access in linear way.
+3. LL elements are not stored in contigious memory allocation (non-linear way).
+4. Each element of LL is called a Node.
+5. Each node of LL contains:
+    |- Data - It holds the value of the node.
+    |- Next - It holds the address/reference of the next node.
+6. Last node of the LL contains NULL in the next part of the node.
+7. Last node aka TAIL node.
+8. Starting node of the LL is called HEAD node.
+9. if the value of HEAD is equal to NULL then we can say that, LL is empty.
+
+Examples:
+    Program1
+        Operations
+            |- insertFirst
+            |- insertLast
+            |- deleteFirst
+            |- deleteLast
+            |- SearchElement
+            |- HW: Count No of element of the LL
+            |- HW: Count No of unique element of the LL (ignore duplicates)
+            |- HW: Check the LL elements are in palindromic or not
+            |- HW: Copy LL elements into another LL in InsertLast manner.
+            |- HW: find the middle element of the LL.
+            |- HW: insert an element at the middle of the LL.
+
+
+Circular LinkedList (single LL)
+-------------------
+-> Head=Tail == null, CLL is empty
+    Example:
+        Program2.java
+                Operations
+                        |- insertFirst
+                        |- insertLast
+                        |- deleteFirst
+                        |- deleteLast
+                        |- HW: SearchElement
+                        |- Count No of element of the LL
+                        |- HW: Count No of unique element of the LL (ignore duplicates)
+                        |- HW: Check the LL elements are in palindromic or not
+                        |- HW: Copy LL elements into another LL in InsertLast manner.
+                        |- HW: find the middle element of the LL.
+                        |- HW: insert an element at the middle of the LL.

@@ -1,0 +1,58 @@
+Stack
+-----
+1. It is a Linear DS.
+2. It follows LIFO principle [Last In First Out].
+3. Operations
+    PUSH  -> Insert an element in the Stack.
+    POP   -> Remove/Delete an element from a Stack.
+    PEEK  -> Top most value in the stack.
+4. All Operations of Stack DS work on the basis of TOP.
+5. Conditions
+    a. TOP == -1, Stack is Empty
+    b. TOP == 0, Single element in the Stack
+    c. TOP == Size-1, Stack is Full
+    d. TOP == Size, Stack Overflow
+6. Example
+    Program1
+
+7. Stack class
+    1a. Stack class stored in java.util package.
+    a. Stack class is a child class of Vector class.
+    b. Stack class is a Synchronized class.
+    c. Stack class also works on the basis of indexing.
+    d. Stack class is a generic class.
+    e. This Generic class use only Wrapper classes.
+    Wrapper classes
+    ---------------
+        data-type           Wapper-class-name
+        -------------------------------------
+        byte                    Byte
+        short                   Short
+        int                     Integer
+        long                    Long
+        float                   Float
+        double                  Double
+        char                    Character
+        boolean                 Boolean
+
+8. Example
+    Program2
+    Program3: Reverse a given string using Stack.
+            SUMIT ---reverse---> TIMUS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
