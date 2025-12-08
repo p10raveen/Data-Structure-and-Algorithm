@@ -1,0 +1,15 @@
+1. Remove Duplicates Without Extra Space, Given an unsorted singly linked list, remove all duplicate nodes without using additional data structures.
+2. Find the Kth Node From the End, Return the k-th node from the end of the singly linked list using a two-pointer method.
+3. Merge Two Sorted Linked Lists, Given two sorted singly linked lists, merge them into a single sorted list.
+4. Detect and Remove a Loop, Detect whether the linked list contains a loop and remove the loop if present.
+5. Reverse Nodes in Groups of K, Given a singly linked list and an integer k, reverse the nodes of the list in groups of k.
+6. Implement the Josephus Problem, Given a circular linked list of n nodes and a number m, delete every m-th node until one remains.
+7. Insert at a Specific Position in Circular List, Insert a new node after the nth position in a circular singly linked list.
+8. Split a Circular Linked List Into Two Circular Lists, Split a circular linked list into two halves, both circular.
+9. Check If a Linked List Is Circular, Write a function to determine if a given linked list is circular or not.
+10. Delete Alternate Nodes in Circular List, Delete every alternate node in a circular linked list until only one node is left.
+11. Pairwise Swap Nodes, Swap each pair of adjacent nodes in a doubly linked list.
+12. Implement Forward and Backward Navigation, Simulate going forward and backward in a doubly linked list, similar to browser history navigation.
+13. Delete Nodes Based on a Condition, Delete all nodes from a doubly linked list that satisfy a given condition (e.g., value < X).
+14. Insert Into a Sorted Doubly Linked List, Insert a new node into a doubly linked list while maintaining sorted order.
+15. Convert Doubly Linked List Into Circular Doubly Linked List, Modify a DLL so that the head and tail become connected, forming a circular DLL.
