@@ -1,0 +1,35 @@
+Tree DS
+-------
+1. Tree is a non-linear DS.
+2. Tree consist of nodes connected by th edges.
+3.IQ. Why we use tree DS?
+    Inorder to perform any operations in a linear DS, the time complexity will
+    increase when increase in data.
+4. Terminology
+        Node: A node is an entity that consist key/value and reference to its
+        child nodes.
+        Edge: It is a link between two nodes.
+        Root: The top-most node of the tree.
+        Tree Height: Height of tree is the height of the root node.
+        Tree Depth: Depth of the deepest node is depth of the tree.
+
+5. Binary Tree
+   a. BT is a tree DS.
+   b. Each parent node can have at-most two child nodes.
+   c. Each node consist 3 parts:
+        - reference to the left child
+        - data/value
+        - reference to the right child
+
+   d. Types of BT:
+        i. Full BT
+            - Every node has either two or no child nodes.
+            - It is aka Proper BT.
+
+        ii. Perfect BT
+            - Every internal nodes has exactly two child nodes and all the nodes are at the same level.
+
+        iii. Complete BT
+            - All the child nodes lean towards the left.
+
+

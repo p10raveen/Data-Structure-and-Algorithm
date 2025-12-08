@@ -20,12 +20,13 @@ Examples:
             |- deleteFirst
             |- deleteLast
             |- SearchElement
-            |- HW: Count No of element of the LL
-            |- HW: Count No of unique element of the LL (ignore duplicates)
+            |- Count No of element of the LL
+            |- Remove Duplicated
+            |- Count No of unique element of the LL (ignore duplicates)
             |- HW: Check the LL elements are in palindromic or not
             |- HW: Copy LL elements into another LL in InsertLast manner.
-            |- HW: find the middle element of the LL.
-            |- HW: insert an element at the middle of the LL.
+            |- Find the middle element of the LL.
+            |- insert an element at the middle of the LL.
 
 
 Circular LinkedList (single LL)
@@ -45,3 +46,63 @@ Circular LinkedList (single LL)
                         |- HW: Copy LL elements into another LL in InsertLast manner.
                         |- HW: find the middle element of the LL.
                         |- HW: insert an element at the middle of the LL.
+
+Doubly LinkedList
+-----------------
+    Program3
+        Operations:
+            |- insertFirst
+            |- insertLast
+            |- displayFirst
+            |- displayLast
+            |- HW: deleteFirst
+            |- HW: deleteLast
+
+LinkedList class
+-----------------
+1. LinkedList class is an implementation class of List interface.
+2. LinkedList class uses doubly linkedList concept for data management.
+3. LinkedList class is a member of java.util package.
+4. LinedList class is a Non-synchronized class (not a thread-safe class).
+5. It allowed duplicate values.
+6. Methods:
+    Program4
+          public boolean add(E);
+          public void addFirst(E);
+          public void addLast(E);
+          public E get(int);
+          public E getFirst();
+          public E getLast();
+          public int size();
+          public void clear();
+    Program5
+          public boolean remove(int);
+          public E removeFirst();
+          public E removeLast();
+
+    Program6
+          public E set(int, E);
+          public boolean contains(java.lang.Object);
+
+    Program7
+          public boolean addAll(java.util.Collection<? extends E>);
+          public java.lang.Object clone();
+
+    Program8
+          public java.util.ListIterator<E> listIterator(int);
+
+    Program9
+          public java.util.Iterator<E> descendingIterator();
+
+
+
+
+
+
+
+
+
+
+
+
+
