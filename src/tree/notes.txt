@@ -33,3 +33,33 @@ Tree DS
             - All the child nodes lean towards the left.
 
 
+6. Tree Traversing
+    Pre-order Tree Traversing  : Root->Left->Right
+    In-Order Tree Traversing   : Left->Root->Right
+    Post-order Tree Traversing : Left->Right->Root
+
+7. Examples
+    Program-1: Tree creation and traversing
+    Program-2: Print the depth of Binary Tree
+    Program-3: Count the number of nodes of the BT.
+    Program-4: Check the BT is Full BT or not.
+    Program-5: Check the BT is Complete BT or not
+    HW: Program-6: Create the mirror image of BT
+
+
+8. Binary Search Tree
+----------------------
+- BST is a tree data structure that allows to maintain a sorted tree.
+- All the node of left sub-tree is less than the root node.
+- All the node of right sub-tree is more than the root node.
+
+    Program-7
+        |- Insertion
+        |- Deletion
+
+
+
+
+
+
+
