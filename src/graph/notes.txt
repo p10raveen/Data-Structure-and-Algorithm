@@ -1,0 +1,106 @@
+Graph DS
+--------
+1. Graph is a non-linear DS.
+2. Graph Consist vertices and edges.
+3.
+    V = {0,1,2,3,4}
+    E - {(0,1),(0,2),(0,3),(2,3),(2,4)}
+    G = {V,E}
+4. Categories
+    |- Undirected Graph
+        |- Graphs are represented by single line to show the connectivity of edges.
+    |- Directed Graph
+        |- Graphs are represented by arrows to show the connectivity of edges.
+5. Types
+    |- Simple/Acyclic Graph
+    |- Cyclic Graph
+    |- Weighted Graph
+    |- Complete Graph
+
+6. Programming representation of graph
+    |- Adjacency Matrix (Sequential Representation)
+    |- Adjacency List  (LinkedList Representation)
+
+
+7. Adjacency Matrix
+
+        0 - - - - -3
+        | \       /
+        |  \    /
+        |   \ /
+        1   2 ------- 4
+
+     0   1   2   3   4
+   ---------------------
+0 |  0   1   1   1   0
+1 |  1   0   0   0   0
+2 |  1   0   0   1   1
+3 |  1   0   1   0   0
+4 |  0   0   1   0   0
+
+8. Example
+    Program-1: Create and print an adjacency matrix of undirected graph.
+    Program-2: Create and print an adjacency matrix of directed graph.
+    HW: Program-3: Check the Graph is Cyclic or not.
+    HW: Program-4: Check the Graph is Complete or not.
+
+
+9. Graph Traversing Technique
+    |- Depth First Search   [Stack]
+        |- Program3
+    |- Breadth First Search [Queue]
+        |- Program4
+
+10. Spanning Tree
+    |- ST is a sub graph of undirected connected graph.
+    |- It include all the vertices with minimum number of edges.
+    |- Is any vertex missed, then it is not ST.
+    |- Minimum Spanning Tree (MST) ***
+        |- It used to find the ST from the Weight graph by check the minimum weight of the edges.
+        |- To ensure, that no cycle in the MST
+        |- There are two Algorithm for find the MST
+            |- Prims Algorithm
+                |- Program5
+            |- Kruskal Algorithm
+                |- HW: Program6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
