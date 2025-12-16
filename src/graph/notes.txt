@@ -64,6 +64,11 @@ Graph DS
             |- Kruskal Algorithm
                 |- HW: Program6
 
+11. Shortest Path Algorithm
+    |- Dijkrta Algorithm
+            |- Program-7
+
+    |- Floyd Warshall Algorithm
 
 
 
