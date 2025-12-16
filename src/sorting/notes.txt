@@ -1,0 +1,31 @@
+Sorting
+-------
+1. The process of arranging elements or data in a specific order.
+    |- ascending or descending order
+
+2. Types of Sorting
+    |- Bubble Sort:
+           |- Compares adjacent elements, and swaps them if they are in the wrong order.
+           |- It continues until the list is sorted.
+           |- Program1
+
+    |- Selection Sort:
+        |- Finds the minimum element from the unsorted part of the list and places it at the beginning.
+        |- The algorithm then proceeds with the remaining unsorted part.
+        |- Program2
+
+    |- Insertion Sort:
+        |- It builds the final sorted list one item at a time by inserting each element into its proper
+            position within the sorted portion of the list.
+        |- Program3
+
+    |- Merge Sort:
+        |- It follows the divide-and-conquer approach by repeatedly dividing the list into smaller sublists,
+        |- sorting them independently, and then merging them back together.
+        |- Program4
+
+    |- Heap Sort:
+        |- Heap Sort is a comparison-based sorting algorithm that uses a binary heap data structure
+            to sort elements.
+
+
