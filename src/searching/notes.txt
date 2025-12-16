@@ -1,0 +1,16 @@
+Searching
+----------
+1. To search an element from the list.
+2. There are mainly two searching algorithms:
+    |- Linear Search
+        - LS is a sequential searching algorithm
+        - We start from one end and check every element of the list until the desired element is found.
+        - Program1
+    |- Binary Search
+        - BS is a searching algorithm for finding an element's position in a sorted array.
+        - if the elements are not sorted, we need to sort them first.
+        - BS can be implemented in two ways:
+            |- Iterative Method
+                |- Program2
+            |- Recursive Method
+                |- Program3
