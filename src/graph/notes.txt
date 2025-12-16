@@ -66,9 +66,10 @@ Graph DS
 
 11. Shortest Path Algorithm
     |- Dijkrta Algorithm
-            |- Program-7
+            |- Program7
 
     |- Floyd Warshall Algorithm
+            |- Program8
 
 
 
