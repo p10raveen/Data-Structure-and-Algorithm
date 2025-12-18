@@ -1,0 +1,67 @@
+Dynamic Programming
+-------------------
+1. It works on two approaches.
+    i. Memoization  [recursion + store]
+        |- Approach: Top-Down approach
+    ii. Tabulation  [Iteration + store]
+        |- Approach: Bottom-Up approach
+
+Example
+1. Fibonacci Without using DP
+    Program1
+2. Fibonacci With using DP (Top-Down approach)
+    Program2
+3. Fibonacci With using DP (Bottom-Up approach)
+    Program3
+
+HW4. factorial of a number using DP (Top-Down approach)
+HW5. factorial of a number using DP (Bottom-Up approach)
+
+6. Coin Change Problem
+    Program6
+    Given coin of different denomination and total amount. count the number of ways
+    to make the amount
+    Input:
+        coins = [1,2,3]
+        amount = 4
+    Output:
+            4
+    Explain:
+        1+1+1+1 = 4
+        2+1+1   = 4
+        2+2     = 4
+        3+1     = 4
+
+7. Coin Change Problem
+    Program7
+    Minimum coins to make amount
+    Input:
+        coins = [1,2,5]
+        amount = 11
+    Output:
+            3
+    Explain:
+        5+5+1 = 11
+
+HW8. Number of ways using Exact K coins
+    Input:
+        coin = [1,2]
+        amount = 4
+        K = 2
+    Output:
+            1
+    Explain:
+        1+1+1+1 = 4   NO
+        1+1+2   = 4   NO
+        2+2     = 4   YES
+
+
+HW9. 0/1 Knapsack
+    Input:
+        Weights = [1,2,3]
+        values = [6,10,12]
+        capacity = 5
+
+    Output: 22
+    Explain:
+            select 2 and 3, value 10 and 12 repectively, 22
