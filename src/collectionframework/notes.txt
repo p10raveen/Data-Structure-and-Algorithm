@@ -1,0 +1,71 @@
+Collection Framework
+---------------------
+1. Collection represents a single unit of objects i.e. a group.
+2. Collections in java is a framework that provides an architecture to store and manipulate the group of objects.
+3. All the operations that you perform on a data such as searching, sorting, insertion, manipulation, deletion etc. can be performed by Java Collections.
+4. Methods of Collection interface
+    1. add()
+    2. addAll()
+    3. remove()
+    4. removeAll()
+    5. retainAll()
+    6. clear()
+    7. size()
+    8. contains()
+    9. containsAll()
+
+5. ArrayList class
+    1. It is used to create Dynamic Array. so it doesn't require size.
+    2. It allows Duplicate element
+    3. It maintains Insertion order.
+
+6. HashSet class
+    1. It uses Hashtable to store elements.
+    2. It uses hashing mechanism
+    3. It maintains unordered collection.
+    4. It does not allow duplicate elements.
+    Example:
+        Program3
+
+7. LinkedHashSet class
+    1. It uses LinkedList + Hashtable to store elements.
+    3. It maintains ordered collection.
+    4. It does not allow duplicate elements.
+    Example:
+        Program4
+
+8. TreeSet class
+    1. It uses Binary Tree to store elements.
+    3. It stored elements in ascending order.
+    4. It does not allow duplicate elements.
+    Example:
+        Program5
+
+9. Map Interface
+A Map contains values on the basis of key i.e. key and value pair.
+Each key and value pair is known as an entry.
+Map contains only unique keys.
+Map is useful if you have to search, update or delete elements on the basis of key.
+Map.Entry Interface
+Entry is the sub interface of Map. So we will be accessed it by Map.Entry ref_name
+ It provides methods to get key and value.
+
+10. HashMap class
+A HashMap contains values based on the key.
+It contains only unique elements.
+It may have one null key and multiple null values.
+It maintains no order.
+Methods:
+    Program6
+    Program7
+    Program8
+
+11. TreeMap class
+A TreeMap contains values based on the key.
+It contains only unique elements.
+It cannot have null key but can have multiple null values.
+It maintains maintains ascending order
+Examples
+    Program9
+    Program10
+    Program11

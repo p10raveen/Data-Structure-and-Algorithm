@@ -55,7 +55,6 @@ HW8. Number of ways using Exact K coins
         1+1+2   = 4   NO
         2+2     = 4   YES
 
-
 HW9. 0/1 Knapsack
     Input:
         Weights = [1,2,3]
@@ -65,3 +64,8 @@ HW9. 0/1 Knapsack
     Output: 22
     Explain:
             select 2 and 3, value 10 and 12 repectively, 22
+
+10. Longest Common Subsequence
+    Program10
+    Program11
+
